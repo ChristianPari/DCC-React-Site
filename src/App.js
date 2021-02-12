@@ -1,9 +1,13 @@
+// packages
 import React from 'react'
+
+// components
+import Header from './Components/Header'
 
 export default function App() {
   return (
     <div className="App">
-      The start of the new DCC Site!
+      <Header />
     </div>
   );
 }
